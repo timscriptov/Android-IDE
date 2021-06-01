@@ -1,0 +1,5 @@
+-keepattributes SourceFile, LineNumberTable
+-renamesourcefileattribute SourceFile
+-ignorewarnings
+-dontwarn
+-dontnote

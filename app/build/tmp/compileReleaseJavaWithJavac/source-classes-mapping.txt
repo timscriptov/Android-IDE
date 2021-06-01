@@ -1,0 +1,34 @@
+com/mcal/studio/data/Constants.java
+ com.mcal.studio.data.Constants
+com/mcal/studio/data/gson/BuildTypes.java
+ com.mcal.studio.data.gson.BuildTypes
+com/mcal/studio/BuildConfig.java
+ com.mcal.studio.BuildConfig
+com/mcal/studio/widget/CenteredToolbar.java
+ com.mcal.studio.widget.CenteredToolbar
+com/mcal/studio/utils/FileUtils.java
+ com.mcal.studio.utils.FileUtils
+com/mcal/studio/data/gson/Android.java
+ com.mcal.studio.data.gson.Android
+com/mcal/studio/builder/Merger.java
+ com.mcal.studio.builder.Merger
+com/mcal/studio/activitys/MainActivity.java
+ com.mcal.studio.activitys.MainActivity
+ com.mcal.studio.activitys.MainActivity$1
+com/mcal/studio/builder/Compiler.java
+ com.mcal.studio.builder.Compiler
+com/mcal/studio/App.java
+ com.mcal.studio.App
+com/mcal/studio/utils/Utils.java
+ com.mcal.studio.utils.Utils
+com/mcal/studio/builder/BuildCallback.java
+ com.mcal.studio.builder.BuildCallback
+com/mcal/studio/utils/Prefs.java
+ com.mcal.studio.utils.Prefs
+ com.mcal.studio.utils.Prefs$Builder
+com/mcal/studio/data/gson/DefaultConfig.java
+ com.mcal.studio.data.gson.DefaultConfig
+com/mcal/studio/builder/ApkMaker.java
+ com.mcal.studio.builder.ApkMaker
+com/mcal/studio/data/Preferences.java
+ com.mcal.studio.data.Preferences

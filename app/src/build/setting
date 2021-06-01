@@ -1,0 +1,11 @@
+{
+    "name": "Code Editor",
+    "packageName": "com.buildx.studio",
+    "versionName": "1.0",
+    "versionCode": "1",
+    "minSdkVersion": "26",
+    "targetSdkVersion": "28",
+    "debug": "false",
+    "minify": "false",
+    "java8": "false"
+}

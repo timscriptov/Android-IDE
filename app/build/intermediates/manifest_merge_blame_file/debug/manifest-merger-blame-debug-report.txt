@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mcal.studio"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:7:5-79
+11-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:7:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:8:5-80
+12-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:8:22-78
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:9:5-67
+13-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:9:22-65
+14
+15    <application
+15-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:11:2-35:16
+16        android:name="com.mcal.studio.App"
+16-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:12:3-22
+17        android:allowBackup="true"
+17-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:13:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\TimScriptov\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:14:9-43
+22        android:label="@string/app_name"
+22-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:15:9-41
+23        android:largeHeap="true"
+23-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:17:3-27
+24        android:requestLegacyExternalStorage="true"
+24-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:18:3-46
+25        android:resizeableActivity="true"
+25-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:19:3-38
+26        android:supportsRtl="true"
+26-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:20:3-29
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme"
+28-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:16:9-40
+29        android:usesCleartextTraffic="true" >
+29-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:21:3-38
+30        <activity
+30-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:24:3-33:14
+31            android:name="com.mcal.studio.activitys.MainActivity"
+31-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:25:13-51
+32            android:configChanges="orientation|screenSize"
+32-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:27:4-50
+33            android:label="@string/app_name"
+33-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:26:13-45
+34            android:screenOrientation="fullSensor" >
+34-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:28:4-42
+35            <intent-filter>
+35-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:29:4-32:20
+36                <action android:name="android.intent.action.MAIN" />
+36-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:30:5-57
+36-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:30:13-54
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:31:5-65
+38-->E:\AppProjects\Android-IDE\app\src\main\AndroidManifest.xml:31:15-62
+39            </intent-filter>
+40        </activity>
+41    </application>
+42
+43</manifest>

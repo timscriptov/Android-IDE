@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_run.xml.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\drawable\\ic_run.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_add.xml.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\drawable_button_on.xml.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\drawable\\button_on.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\layout_toolbar.xml.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\font_google_sans_medium.ttf.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\font\\google_sans_medium.ttf"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\font_google_sans_regular.ttf.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\font\\google_sans_regular.ttf"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\drawable_button.xml.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\font_google_sans_bold.ttf.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\font\\google_sans_bold.ttf"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\drawable_button_off.xml.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\drawable\\button_off.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\drawable_web_hi_res_512.png.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\drawable\\web_hi_res_512.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\apkbuilder-sample-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\AppProjects\\apkbuilder-sample-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

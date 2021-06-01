@@ -1,0 +1,17 @@
+{
+  "compileSdkVersion":"android-S",
+  "buildToolsVersion":"30.0.3",
+  "defaultConfig":{
+    "applicationId":"APPLICATION_ID",
+    "minSdkVersion":"21",
+    "targetSdkVersion":"30",
+    "versionCode":"1",
+    "versionName":"1.0"
+  },
+  "buildTypes":{
+    "androidx":true,
+    "debug":false,
+    "java8":false,
+    "minify":false
+  }
+}
