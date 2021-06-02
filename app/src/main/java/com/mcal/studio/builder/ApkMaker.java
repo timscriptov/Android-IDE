@@ -114,12 +114,25 @@ public class ApkMaker extends AsyncTask<String, String, String> {
 
         if (!new File(bin, "aapt").exists()) {
             try {
-                InputStream input = context.getAssets().open("bin/" + getAaptName());
+                InputStream input = context.getAssets().open("bin/" + getBinaryName("aapt"));
                 OutputStream output = new FileOutputStream(new File(bin, "aapt"));
                 IOUtils.copy(input, output);
                 input.close();
                 output.close();
                 new File(bin, "aapt").setExecutable(true);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        if (!new File(bin, "zipalign").exists()) {
+            try {
+                InputStream input = context.getAssets().open("bin/" + getBinaryName("zipalign"));
+                OutputStream output = new FileOutputStream(new File(bin, "zipalign"));
+                IOUtils.copy(input, output);
+                input.close();
+                output.close();
+                new File(bin, "zipalign").setExecutable(true);
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -278,6 +291,9 @@ public class ApkMaker extends AsyncTask<String, String, String> {
             publishProgress("Building Apk...");
             addFilesInApk();
 
+            publishProgress("Aligning Apk...");
+            runZipalign();
+
             publishProgress("Signing Apk...");
             signApk();
         } catch (Exception e) {
@@ -295,7 +311,7 @@ public class ApkMaker extends AsyncTask<String, String, String> {
         cmd.append(" --key " + keys.getAbsolutePath() + "/testkey.pk8");
         cmd.append(" --cert " + keys.getAbsolutePath() + "/testkey.x509.pem");
         cmd.append(" --out " + release.getAbsolutePath() + "/app-signed.apk");
-        cmd.append(" --in " + buildBin.getAbsolutePath() + "/app.apk");
+        cmd.append(" --in " + buildBin.getAbsolutePath() + "/app-aligned.apk");
         Process dexProcess = Runtime.getRuntime().exec(cmd.toString());
         String error = FileUtils.readInputStreem(dexProcess.getErrorStream());
         if (!error.isEmpty()) {
@@ -636,6 +652,28 @@ public class ApkMaker extends AsyncTask<String, String, String> {
         }
     }
 
+    private void runZipalign() throws Exception {
+        List<String> ch = new ArrayList<>();
+        ch.add("chmod");
+        ch.add("744");
+        ch.add(bin.getAbsolutePath() + "/zipalign");
+        Runtime.getRuntime().exec(ch.toArray(new String[0]));
+
+        List<String> cmd = new ArrayList<>();
+        cmd.add(bin.getAbsolutePath() + "/zipalign");
+        cmd.add("-p");
+        cmd.add("-f");
+        cmd.add("-v");
+        cmd.add("4");
+        cmd.add(buildBin.getAbsolutePath() + "/app.apk");
+        cmd.add(buildBin.getAbsolutePath() + "/app-aligned.apk");
+        Process aaptProcess = Runtime.getRuntime().exec(cmd.toArray(new String[0]));
+        String error = FileUtils.readInputStreem(aaptProcess.getErrorStream());
+        if (!error.isEmpty()) {
+            throw new Exception(error);
+        }
+    }
+
     private void mergeManifest() throws Exception {
         String main = project.getAbsolutePath() + "/app/src/main/AndroidManifest.xml";
         String output = buildBin.getAbsolutePath() + "/AndroidManifest.xml";
@@ -657,18 +695,8 @@ public class ApkMaker extends AsyncTask<String, String, String> {
         }
     }
 
-    private String getAaptName() {
-        String arch = Build.CPU_ABI;
-        if (arch.startsWith("arm")) {
-            arch = "aapt-arm";
-        } else if (arch.startsWith("arm64")) {
-            arch = "aapt-arm64";
-        } else if (arch.startsWith("x86")) {
-            arch = "aapt-x86";
-        } else if (arch.startsWith("x86_64")) {
-            arch = "aapt-x86_64";
-        }
-        return arch;
+    private String getBinaryName(String name) {
+        return Build.CPU_ABI + File.separator + name;
     }
 
     @Override
