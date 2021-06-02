@@ -9,6 +9,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.mcal.studio.data.gson.Android;
 import com.mcal.studio.data.gson.DefaultConfig;
+import com.mcal.studio.utils.AbiInfo;
 import com.mcal.studio.utils.FileUtils;
 import com.mcal.studio.utils.Utils;
 
@@ -114,7 +115,7 @@ public class ApkMaker extends AsyncTask<String, String, String> {
 
         if (!new File(bin, "aapt").exists()) {
             try {
-                InputStream input = context.getAssets().open("bin/" + getBinaryName("aapt"));
+                InputStream input = context.getAssets().open("bin/" + AbiInfo.getBinaryName("aapt"));
                 OutputStream output = new FileOutputStream(new File(bin, "aapt"));
                 IOUtils.copy(input, output);
                 input.close();
@@ -127,7 +128,7 @@ public class ApkMaker extends AsyncTask<String, String, String> {
 
         if (!new File(bin, "zipalign").exists()) {
             try {
-                InputStream input = context.getAssets().open("bin/" + getBinaryName("zipalign"));
+                InputStream input = context.getAssets().open("bin/" + AbiInfo.getBinaryName("zipalign"));
                 OutputStream output = new FileOutputStream(new File(bin, "zipalign"));
                 IOUtils.copy(input, output);
                 input.close();
@@ -266,7 +267,15 @@ public class ApkMaker extends AsyncTask<String, String, String> {
             publishProgress("Aapt runing...");
             runAapt();
 
-            String buildConfig = "/**\r\n * Automatically generated file. DO NOT MODIFY\r\n */\r\npackage %pack%;\r\n\r\npublic final class BuildConfig {\r\n  public static final boolean DEBUG = Boolean.parseBoolean(\"%debug%\");\r\n}\r\n".replace("%pack%", packageName).replace("%debug%", String.valueOf(isDebug));
+            String buildConfig = "package $PACKAGE$;\n".replace("$PACKAGE$", packageName) +
+                    "\n" +
+                    "public final class BuildConfig {\n" +
+                    "  public static final boolean DEBUG = Boolean.parseBoolean(\"$DEBUG$\");\n".replace("$DEBUG$", String.valueOf(isDebug)) +
+                    "  public static final String APPLICATION_ID = \"$PACKAGE$\";\n".replace("$PACKAGE$", packageName) +
+                    "  public static final String BUILD_TYPE = \"$DEBUG$\";\n".replace("$DEBUG$", isDebug ? "debug" : "release") +
+                    "  public static final int VERSION_CODE = $VERSION_CODE$;\n".replace("$VERSION_CODE$", versionCode) +
+                    "  public static final String VERSION_NAME = \"$VERSION_NAME$\";\n".replace("$VERSION_NAME$", versionName) +
+                    "}";
             FileUtils.writeFile(gen.getAbsolutePath() + "/" + packageName.replace(".", "/") + "/BuildConfig.java", buildConfig);
 
             publishProgress("Compiling java...");
@@ -693,10 +702,6 @@ public class ApkMaker extends AsyncTask<String, String, String> {
         if (error != null) {
             throw new Exception(error);
         }
-    }
-
-    private String getBinaryName(String name) {
-        return Build.CPU_ABI + File.separator + name;
     }
 
     @Override
