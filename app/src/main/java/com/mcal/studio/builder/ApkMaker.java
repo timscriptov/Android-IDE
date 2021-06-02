@@ -667,8 +667,8 @@ public class ApkMaker extends AsyncTask<String, String, String> {
         cmd.add("4");
         cmd.add(buildBin.getAbsolutePath() + "/app.apk");
         cmd.add(buildBin.getAbsolutePath() + "/app-aligned.apk");
-        Process aaptProcess = Runtime.getRuntime().exec(cmd.toArray(new String[0]));
-        String error = FileUtils.readInputStreem(aaptProcess.getErrorStream());
+        Process zipalignProcess = Runtime.getRuntime().exec(cmd.toArray(new String[0]));
+        String error = FileUtils.readInputStreem(zipalignProcess.getErrorStream());
         if (!error.isEmpty()) {
             throw new Exception(error);
         }
