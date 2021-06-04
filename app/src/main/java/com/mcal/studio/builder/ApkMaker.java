@@ -3,15 +3,13 @@ package com.mcal.studio.builder;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.AsyncTask;
-import android.os.Build;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.mcal.studio.data.gson.Android;
-import com.mcal.studio.data.gson.DefaultConfig;
+import com.mcal.studio.data.gson.build.Android;
+import com.mcal.studio.data.gson.firebase.Firebase;
 import com.mcal.studio.utils.AbiInfo;
 import com.mcal.studio.utils.FileUtils;
-import com.mcal.studio.utils.Utils;
 
 import net.lingala.zip4j.core.ZipFile;
 import net.lingala.zip4j.model.FileHeader;
@@ -19,16 +17,11 @@ import net.lingala.zip4j.model.ZipParameters;
 import net.lingala.zip4j.util.Zip4jConstants;
 
 import org.apache.commons.io.IOUtils;
-import org.json.JSONException;
-import org.json.JSONObject;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -38,6 +31,7 @@ import java.util.List;
 public class ApkMaker extends AsyncTask<String, String, String> {
     @SuppressLint("StaticFieldLeak")
     private final Context context;
+    private final List<File> allLibs = new ArrayList<>();
     private BuildCallback callback;
     private String packageName, versionName, versionCode, minSdkVersion, targetSdkVersion = null;
     private boolean isAndroidX, isDebug, isMinify, isJava8 = false;
@@ -48,14 +42,25 @@ public class ApkMaker extends AsyncTask<String, String, String> {
     private File sdk;
     private File keys;
     private File jars;
-    private final List<File> allLibs = new ArrayList<>();
     private File buildBin;
     private File release;
     private File jniLibs;
     private File gen;
+    private File genFirebase;
     private File classes;
     private File dexes;
     private File temp;
+    private String defaultWebClientId;
+    private String firebaseDatabaseUrl;
+    private String gcmDefaultSenderId;
+    private String googleApiKey;
+    private String googleAppId;
+    private String googleCrashReportingApiKey;
+    private String googleStorageBucket;
+    private String projectId;
+
+    // AIDL
+    //C:\Android-project\ApiDemos\src\com\example\android\apis\app>aidl -IC:\Android-project\ApiDemos\src\ IRemoteService.aidl
 
     public ApkMaker(Context context) {
         this.context = context;
@@ -80,6 +85,7 @@ public class ApkMaker extends AsyncTask<String, String, String> {
         libs = new File(project, "app/libs");
         jniLibs = new File(project, "app/src/main/lib"); // Shared libraries
         gen = new File(project, "app/build/gen");
+        genFirebase = new File(project, "app/build/res");
         classes = new File(project, "app/build/bin/classes");
         dexes = new File(project, "app/build/bin/dexes");
         temp = new File(project, "app/build/bin/temp");
@@ -106,6 +112,7 @@ public class ApkMaker extends AsyncTask<String, String, String> {
             if (!release.exists()) release.mkdirs();
             if (!libs.exists()) libs.mkdirs();
             if (!gen.exists()) gen.mkdirs();
+            if (!genFirebase.exists()) genFirebase.mkdirs();
             if (!classes.exists()) classes.mkdirs();
             if (!dexes.exists()) dexes.mkdirs();
             if (!temp.exists()) temp.mkdirs();
@@ -121,6 +128,19 @@ public class ApkMaker extends AsyncTask<String, String, String> {
                 input.close();
                 output.close();
                 new File(bin, "aapt").setExecutable(true);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        if (!new File(bin, "aapt2").exists()) {
+            try {
+                InputStream input = context.getAssets().open("bin/" + AbiInfo.getBinaryName("aapt2"));
+                OutputStream output = new FileOutputStream(new File(bin, "aapt2"));
+                IOUtils.copy(input, output);
+                input.close();
+                output.close();
+                new File(bin, "aapt2").setExecutable(true);
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -230,7 +250,7 @@ public class ApkMaker extends AsyncTask<String, String, String> {
             versionCode = content.defaultConfig.versionCode;
             minSdkVersion = content.defaultConfig.minSdkVersion;
             targetSdkVersion = content.defaultConfig.targetSdkVersion;
-            isAndroidX = content.buildTypes.androidx;
+            isAndroidX = content.dependencies.androidx;
             isDebug = content.buildTypes.debug;
             isMinify = content.buildTypes.minify;
             isJava8 = content.buildTypes.java8;
@@ -244,7 +264,7 @@ public class ApkMaker extends AsyncTask<String, String, String> {
                     allLibs.add(f);
                 }
             }
-            if(isAndroidX) {
+            if (isAndroidX) {
                 for (File f : androidxLibs.listFiles()) {
                     if (!allLibs.contains(f.getName())) {
                         allLibs.add(f);
@@ -263,6 +283,39 @@ public class ApkMaker extends AsyncTask<String, String, String> {
         try {
             publishProgress("Merging manifest...");
             mergeManifest();
+
+            if (new File(project + File.separator + "app/google-services.json").exists()) {
+                String content = FileUtils.readFile(project + File.separator + "app/google-services.json");
+                GsonBuilder builder = new GsonBuilder();
+                Gson gson = builder.create();
+
+                Firebase firebase = gson.fromJson(content, Firebase.class);
+
+                defaultWebClientId = firebase.client.get(0).oauthClient.get(0).clientId; // client_id
+
+                firebaseDatabaseUrl = firebase.projectInfo.firebaseUrl; // firebase_url
+                gcmDefaultSenderId = firebase.projectInfo.projectNumber; // project_number
+
+                googleApiKey = firebase.client.get(0).apiKey.get(0).currentKey; // current_key
+                googleAppId = firebase.client.get(0).clientInfo.mobilesdkAppId; // mobilesdk_app_id
+                googleCrashReportingApiKey = firebase.client.get(0).apiKey.get(0).currentKey; // current_key
+
+                googleStorageBucket = firebase.projectInfo.storageBucket; // storage_bucket
+                projectId = firebase.projectInfo.projectId; // project_id
+
+                String firebaseConfig = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
+                        "<resources>\n" +
+                        "    <string name=\"default_web_client_id\" translatable=\"false\">DEFAULT_WEB_CLIENT_ID</string>\n".replace("DEFAULT_WEB_CLIENT_ID", defaultWebClientId) +
+                        "    <string name=\"firebase_database_url\" translatable=\"false\">FIREBASE_DATABASE_URL</string>\n".replace("FIREBASE_DATABASE_URL", firebaseDatabaseUrl) +
+                        "    <string name=\"gcm_defaultSenderId\" translatable=\"false\">GCM_DEFAULT_SENDER_ID</string>\n".replace("GCM_DEFAULT_SENDER_ID", gcmDefaultSenderId) +
+                        "    <string name=\"google_api_key\" translatable=\"false\">GOOGLE_API_KEY</string>\n".replace("GOOGLE_API_KEY", googleApiKey) +
+                        "    <string name=\"google_app_id\" translatable=\"false\">GOOGLE_APP_ID</string>\n".replace("GOOGLE_APP_ID", googleAppId) +
+                        "    <string name=\"google_crash_reporting_api_key\" translatable=\"false\">GOOGLE_CRASH_REPORTING_API_KEY</string>\n".replace("GOOGLE_CRASH_REPORTING_API_KEY", googleCrashReportingApiKey) +
+                        "    <string name=\"google_storage_bucket\" translatable=\"false\">GOOGLE_STORAGE_BUCKET</string>\n".replace("GOOGLE_STORAGE_BUCKET", googleStorageBucket) +
+                        "    <string name=\"project_id\" translatable=\"false\">PROJECT_ID</string>\n".replace("PROJECT_ID", projectId) +
+                        "</resources>";
+                FileUtils.writeFile(genFirebase.getAbsolutePath() + File.separator + "values" + File.separator + "values.xml", firebaseConfig);
+            }
 
             publishProgress("Aapt runing...");
             runAapt();
@@ -629,6 +682,10 @@ public class ApkMaker extends AsyncTask<String, String, String> {
         if (new File(project, "app/src/main/res").exists()) {
             cmd.add("-S");
             cmd.add(new File(project, "app/src/main/res").getAbsolutePath());
+        }
+        if (new File(project, "app/build/res").exists()) {
+            cmd.add("-S");
+            cmd.add(new File(project, "app/build/res").getAbsolutePath());
         }
         cmd.add("-m");
         cmd.add("-J");

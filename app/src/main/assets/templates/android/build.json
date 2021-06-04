@@ -9,9 +9,12 @@
     "versionName":"1.0"
   },
   "buildTypes":{
-    "androidx":false,
     "debug":false,
     "java8":false,
     "minify":false
+  },
+  "dependencies":{
+    "androidx":ANDROIDX,
+    "firebase":FIREBASE
   }
 }

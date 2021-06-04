@@ -1,0 +1,58 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/about_name"
+            android:textColor="?attr/symbolColor"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/project_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.87"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/dividerVertical" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/about_author"
+            android:textColor="?attr/symbolColor"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/project_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:alpha="0.87"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

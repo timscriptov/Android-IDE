@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/file_browser_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_browser_arrow" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/file_browser_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/file_browser_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/file_browser_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_overflow" />
+
+</LinearLayout>

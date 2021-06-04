@@ -6,7 +6,7 @@ import java.io.File;
 
 public class Constants {
 
-    public static final File PROJECT_DIR = new File(Environment.getExternalStorageDirectory(), "AppProjects");
+    public static final File PROJECT_DIR = new File(Environment.getExternalStorageDirectory(), "AppStudio");
 
     public Constants() {
         if (!PROJECT_DIR.exists()) {

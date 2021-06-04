@@ -3,11 +3,12 @@ package com.mcal.studio;
 import android.annotation.SuppressLint;
 import android.app.Application;
 import android.content.Context;
-import android.content.ContextWrapper;
 import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 
-import com.mcal.studio.utils.Prefs;
+import androidx.appcompat.app.AppCompatDelegate;
+import androidx.preference.PreferenceManager;
+
+import com.mcal.studio.data.Preferences;
 
 public class App extends Application {
 
@@ -31,12 +32,11 @@ public class App extends Application {
     public void onCreate() {
         context = getApplicationContext();
         mPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-        new Prefs.Builder()
-                .setContext(this)
-                .setMode(ContextWrapper.MODE_PRIVATE)
-                .setPrefsName(getPackageName())
-                .setUseDefaultSharedPreference(true)
-                .build();
         super.onCreate();
+        if (Preferences.isNightModeEnabled()) {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        } else {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        }
     }
 }

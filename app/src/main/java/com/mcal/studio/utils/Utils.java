@@ -2,16 +2,12 @@ package com.mcal.studio.utils;
 
 import android.content.Context;
 import android.content.res.AssetManager;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.util.Base64;
 import android.util.TypedValue;
 import android.widget.Toast;
 
 import com.mcal.studio.App;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

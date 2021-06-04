@@ -1,5 +1,3 @@
-package templates.androidx
-
 apply plugin: 'com.android.application'
 
 android {

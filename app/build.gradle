@@ -2,25 +2,32 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 'android-S'
-    buildToolsVersion "30.0.3"
+    buildToolsVersion '30.0.3'
 
     defaultConfig {
         applicationId "com.mcal.studio"
-        minSdkVersion 23
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
+
     buildTypes {
+        debug {
+            testCoverageEnabled false
+        }
+
         release {
-            minifyEnabled false
+            testCoverageEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    
+
     lintOptions {
-          abortOnError false
-      }
+        disable 'PrivateResource'
+        abortOnError false
+    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -28,18 +35,29 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.jakewharton:butterknife:10.2.3"
+    implementation 'org.jetbrains:annotations:21.0.1'
+    annotationProcessor "com.jakewharton:butterknife-compiler:10.2.3"
+
     implementation 'androidx.appcompat:appcompat:1.3.0'
-	implementation 'androidx.annotation:annotation:1.2.0'
-	implementation 'androidx.core:core:1.5.0'
-	implementation 'androidx.activity:activity:1.2.3'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-	implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-	implementation 'androidx.legacy:legacy-support-v13:1.0.0'
-	implementation 'androidx.browser:browser:1.3.0'
-
-    implementation 'org.jetbrains:annotations:20.1.0'
-
     implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.preference:preference-ktx:1.1.1'
+
     implementation 'com.google.code.gson:gson:2.8.6'
+    implementation "org.nanohttpd:nanohttpd-webserver:2.3.1"
+    implementation "commons-io:commons-io:2.8.0"
+    implementation 'org.jsoup:jsoup:1.13.1'
+    implementation "eu.bitwalker:UserAgentUtils:1.21"
+    implementation("org.eclipse.jgit:org.eclipse.jgit:3.7.1.201504261725-r") {
+        exclude module: 'httpclient'
+        exclude group: 'org.apache.httpcomponents'
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+    }
+
+    implementation 'de.psdev.licensesdialog:licensesdialog:2.2.0'
+    implementation "com.github.PhilJay:MPAndroidChart:3.0.3"
+    implementation "com.github.bmelnychuk:atv:1.2.9"
 }

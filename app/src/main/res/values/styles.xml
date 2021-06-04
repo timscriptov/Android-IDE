@@ -1,12 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="toolbarStyle">@style/AppTheme.Toolbar</item>
+        <item name="toolbarPopupStyle">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="symbolColor">@color/colorAccent</item>
         <item name="alertDialogTheme">@style/AlertDialogTheme</item>
         <item name="materialAlertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:windowAnimationStyle">@style/TransitionStyle</item>
+    </style>
+
+    <style name="TextInputLayoutTheme" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorAccent</item>
+        <item name="hintTextColor">@color/colorAccent</item>
     </style>
 
     <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
@@ -27,18 +34,14 @@
         <item name="android:textColor">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme.FullScreen" parent="AppTheme">
-        <item name="android:windowFullscreen">true</item>
-        <item name="android:windowContentOverlay">@null</item>
+    <style name="TransitionStyle">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
-    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
-        <item name="android:textSize">20sp</item>
-        <item name="android:fontFamily">@font/google_sans_medium</item>
-        <item name="fontFamily">@font/google_sans_medium</item>
+    <style name="AppTheme.Toolbar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
     </style>
 </resources>

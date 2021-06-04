@@ -1,0 +1,91 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.ProjectActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/widget_toolbar" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <FrameLayout
+            android:id="@+id/editor_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appbar" />
+
+    </RelativeLayout>
+
+    <com.mcal.studio.widget.ScrimInsetsFrameLayout
+        android:id="@+id/insets_layout"
+        android:layout_width="304dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="?android:attr/windowBackground"
+        app:insetForeground="#4000">
+
+        <LinearLayout
+            android:id="@+id/file_browser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?attr/actionBarSize"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="?attr/colorPrimary"
+                android:theme="?attr/toolbarStyle">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/root_overflow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_overflow" />
+            </LinearLayout>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+        </LinearLayout>
+
+    </com.mcal.studio.widget.ScrimInsetsFrameLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

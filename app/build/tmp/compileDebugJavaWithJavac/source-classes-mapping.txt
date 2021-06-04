@@ -1,34 +1,294 @@
-com/mcal/studio/data/gson/Android.java
- com.mcal.studio.data.gson.Android
-com/mcal/studio/data/gson/BuildTypes.java
- com.mcal.studio.data.gson.BuildTypes
-com/mcal/studio/BuildConfig.java
- com.mcal.studio.BuildConfig
-com/mcal/studio/widget/CenteredToolbar.java
- com.mcal.studio.widget.CenteredToolbar
-com/mcal/studio/data/gson/DefaultConfig.java
- com.mcal.studio.data.gson.DefaultConfig
-com/mcal/studio/data/Constants.java
- com.mcal.studio.data.Constants
-com/mcal/studio/builder/Merger.java
- com.mcal.studio.builder.Merger
-com/mcal/studio/data/Preferences.java
- com.mcal.studio.data.Preferences
-com/mcal/studio/builder/Compiler.java
- com.mcal.studio.builder.Compiler
-com/mcal/studio/App.java
- com.mcal.studio.App
-com/mcal/studio/utils/Utils.java
- com.mcal.studio.utils.Utils
-com/mcal/studio/builder/BuildCallback.java
- com.mcal.studio.builder.BuildCallback
-com/mcal/studio/utils/Prefs.java
- com.mcal.studio.utils.Prefs
- com.mcal.studio.utils.Prefs$Builder
-com/mcal/studio/utils/FileUtils.java
- com.mcal.studio.utils.FileUtils
-com/mcal/studio/activitys/MainActivity.java
- com.mcal.studio.activitys.MainActivity
- com.mcal.studio.activitys.MainActivity$1
+com/mcal/studio/data/gson/firebase/ClientInfo.java
+ com.mcal.studio.data.gson.firebase.ClientInfo
 com/mcal/studio/builder/ApkMaker.java
  com.mcal.studio.builder.ApkMaker
+com/mcal/studio/BuildConfig.java
+ com.mcal.studio.BuildConfig
+com/mcal/studio/utils/AbiInfo.java
+ com.mcal.studio.utils.AbiInfo
+com/mcal/studio/builder/BuildCallback.java
+ com.mcal.studio.builder.BuildCallback
+com/mcal/studio/data/NightMode.java
+ com.mcal.studio.data.NightMode
+ com.mcal.studio.data.NightMode$Mode
+com/mcal/studio/helper/ProjectFiles.java
+ com.mcal.studio.helper.ProjectFiles
+ com.mcal.studio.helper.ProjectFiles$Default
+ com.mcal.studio.helper.ProjectFiles$Import
+com/mcal/studio/helper/HTMLParser.java
+ com.mcal.studio.helper.HTMLParser
+com/mcal/studio/editor/patterns/Patterns.java
+ com.mcal.studio.editor.patterns.Patterns
+com/mcal/studio/data/Preferences.java
+ com.mcal.studio.data.Preferences
+com/mcal/studio/git/CheckoutTask.java
+ com.mcal.studio.git.CheckoutTask
+com/mcal/studio/editor/patterns/PatternsXml.java
+ com.mcal.studio.editor.patterns.PatternsXml
+com/mcal/studio/data/gson/firebase/Firebase.java
+ com.mcal.studio.data.gson.firebase.Firebase
+com/mcal/studio/git/FetchTask.java
+ com.mcal.studio.git.FetchTask
+ com.mcal.studio.git.FetchTask$1
+com/mcal/studio/git/PullTask.java
+ com.mcal.studio.git.PullTask
+ com.mcal.studio.git.PullTask$1
+com/mcal/studio/data/gson/build/DefaultConfig.java
+ com.mcal.studio.data.gson.build.DefaultConfig
+com/mcal/studio/data/gson/firebase/OauthClient.java
+ com.mcal.studio.data.gson.firebase.OauthClient
+com/mcal/studio/data/gson/firebase/Services.java
+ com.mcal.studio.data.gson.firebase.Services
+com/mcal/studio/git/CommitTask.java
+ com.mcal.studio.git.CommitTask
+com/mcal/studio/data/gson/firebase/OtherPlatformOauthClient.java
+ com.mcal.studio.data.gson.firebase.OtherPlatformOauthClient
+com/mcal/studio/helper/HyperServer.java
+ com.mcal.studio.helper.HyperServer
+com/mcal/studio/data/gson/firebase/AppinviteService.java
+ com.mcal.studio.data.gson.firebase.AppinviteService
+com/mcal/studio/utils/InstallProvider.java
+ com.mcal.studio.utils.InstallProvider
+com/mcal/studio/helper/FontsOverride.java
+ com.mcal.studio.helper.FontsOverride
+com/mcal/studio/adapter/AnalyzeAdapter.java
+ com.mcal.studio.adapter.AnalyzeAdapter
+com/mcal/studio/data/gson/build/Android.java
+ com.mcal.studio.data.gson.build.Android
+com/mcal/studio/data/gson/firebase/ApiKey.java
+ com.mcal.studio.data.gson.firebase.ApiKey
+com/mcal/studio/helper/Constants.java
+ com.mcal.studio.helper.Constants
+com/mcal/studio/data/gson/firebase/AndroidClientInfo.java
+ com.mcal.studio.data.gson.firebase.AndroidClientInfo
+com/mcal/studio/builder/Merger.java
+ com.mcal.studio.builder.Merger
+com/mcal/studio/editor/Colors.java
+ com.mcal.studio.editor.Colors
+com/mcal/studio/editor/patterns/PatternsJson.java
+ com.mcal.studio.editor.patterns.PatternsJson
+com/mcal/studio/data/gson/firebase/ProjectInfo.java
+ com.mcal.studio.data.gson.firebase.ProjectInfo
+com/mcal/studio/data/gson/firebase/Client.java
+ com.mcal.studio.data.gson.firebase.Client
+com/mcal/studio/data/gson/build/BuildTypes.java
+ com.mcal.studio.data.gson.build.BuildTypes
+com/mcal/studio/editor/patterns/PatternsGradle.java
+ com.mcal.studio.editor.patterns.PatternsGradle
+com/mcal/studio/git/PushTask.java
+ com.mcal.studio.git.PushTask
+ com.mcal.studio.git.PushTask$1
+ com.mcal.studio.git.PushTask$2
+com/mcal/studio/utils/FileUtils.java
+ com.mcal.studio.utils.FileUtils
+com/mcal/studio/data/Constants.java
+ com.mcal.studio.data.Constants
+com/mcal/studio/helper/Clipboard.java
+ com.mcal.studio.helper.Clipboard
+ com.mcal.studio.helper.Clipboard$Type
+com/mcal/studio/text/HtmlCompat.java
+ com.mcal.studio.text.HtmlCompat
+com/mcal/studio/data/gson/build/DependenciesJava.java
+ com.mcal.studio.data.gson.build.DependenciesJava
+com/mcal/studio/utils/Utils.java
+ com.mcal.studio.utils.Utils
+com/mcal/studio/App.java
+ com.mcal.studio.App
+com/mcal/studio/helper/NetworkUtils.java
+ com.mcal.studio.helper.NetworkUtils
+com/mcal/studio/builder/Compiler.java
+ com.mcal.studio.builder.Compiler
+com/mcal/studio/editor/patterns/PatternsJava.java
+ com.mcal.studio.editor.patterns.PatternsJava
+com/mcal/studio/git/GitTask.java
+ com.mcal.studio.git.GitTask
+com/mcal/studio/helper/DataValidator.java
+ com.mcal.studio.helper.DataValidator
+com/mcal/studio/adapter/IntroAdapter.java
+ com.mcal.studio.adapter.IntroAdapter
+com/mcal/studio/adapter/RemotesAdapter.java
+ com.mcal.studio.adapter.RemotesAdapter
+ com.mcal.studio.adapter.RemotesAdapter$1
+ com.mcal.studio.adapter.RemotesAdapter$1$1
+ com.mcal.studio.adapter.RemotesAdapter$2
+ com.mcal.studio.adapter.RemotesAdapter$2$1
+ com.mcal.studio.adapter.RemotesAdapter$RemotesHolder
+com/mcal/studio/git/CloneTask.java
+ com.mcal.studio.git.CloneTask
+ com.mcal.studio.git.CloneTask$1
+com/mcal/studio/license/EclipseDistributionLicense10.java
+ com.mcal.studio.license.EclipseDistributionLicense10
+com/mcal/studio/fragment/EditorFragment.java
+ com.mcal.studio.fragment.EditorFragment
+ com.mcal.studio.fragment.EditorFragment$1
+ com.mcal.studio.fragment.EditorFragment$SymbolClickListener
+com/mcal/studio/git/GitWrapper.java
+ com.mcal.studio.git.GitWrapper
+com/mcal/studio/widget/holder/FileTreeHolder.java
+ com.mcal.studio.widget.holder.FileTreeHolder
+ com.mcal.studio.widget.holder.FileTreeHolder$1
+ com.mcal.studio.widget.holder.FileTreeHolder$1$1
+ com.mcal.studio.widget.holder.FileTreeHolder$1$1$1
+ com.mcal.studio.widget.holder.FileTreeHolder$1$1$2
+ com.mcal.studio.widget.holder.FileTreeHolder$1$1$3
+ com.mcal.studio.widget.holder.FileTreeHolder$2
+ com.mcal.studio.widget.holder.FileTreeHolder$FileTreeItem
+com/mcal/studio/helper/ResourceHelper.java
+ com.mcal.studio.helper.ResourceHelper
+com/mcal/studio/widget/ScrimInsetsFrameLayout.java
+ com.mcal.studio.widget.ScrimInsetsFrameLayout
+ com.mcal.studio.widget.ScrimInsetsFrameLayout$OnInsetsCallback
+com/mcal/studio/activity/IntroActivity.java
+ com.mcal.studio.activity.IntroActivity
+ com.mcal.studio.activity.IntroActivity$1
+ com.mcal.studio.activity.IntroActivity$2
+ com.mcal.studio.activity.IntroActivity$3
+com/mcal/studio/adapter/ProjectAdapter.java
+ com.mcal.studio.adapter.ProjectAdapter
+ com.mcal.studio.adapter.ProjectAdapter$1
+ com.mcal.studio.adapter.ProjectAdapter$2
+ com.mcal.studio.adapter.ProjectAdapter$2$1
+ com.mcal.studio.adapter.ProjectAdapter$MyViewHolder
+com/mcal/studio/activity/ProjectActivity.java
+ com.mcal.studio.activity.ProjectActivity
+ com.mcal.studio.activity.ProjectActivity$1
+ com.mcal.studio.activity.ProjectActivity$10
+ com.mcal.studio.activity.ProjectActivity$11
+ com.mcal.studio.activity.ProjectActivity$11$1
+ com.mcal.studio.activity.ProjectActivity$12
+ com.mcal.studio.activity.ProjectActivity$13
+ com.mcal.studio.activity.ProjectActivity$14
+ com.mcal.studio.activity.ProjectActivity$15
+ com.mcal.studio.activity.ProjectActivity$16
+ com.mcal.studio.activity.ProjectActivity$17
+ com.mcal.studio.activity.ProjectActivity$18
+ com.mcal.studio.activity.ProjectActivity$19
+ com.mcal.studio.activity.ProjectActivity$2
+ com.mcal.studio.activity.ProjectActivity$3
+ com.mcal.studio.activity.ProjectActivity$4
+ com.mcal.studio.activity.ProjectActivity$4$1
+ com.mcal.studio.activity.ProjectActivity$4$1$1
+ com.mcal.studio.activity.ProjectActivity$4$1$2
+ com.mcal.studio.activity.ProjectActivity$5
+ com.mcal.studio.activity.ProjectActivity$5$1
+ com.mcal.studio.activity.ProjectActivity$5$1$1
+ com.mcal.studio.activity.ProjectActivity$5$1$2
+ com.mcal.studio.activity.ProjectActivity$6
+ com.mcal.studio.activity.ProjectActivity$7
+ com.mcal.studio.activity.ProjectActivity$8
+ com.mcal.studio.activity.ProjectActivity$9
+com/mcal/studio/activity/AnalyzeActivity.java
+ com.mcal.studio.activity.AnalyzeActivity
+com/mcal/studio/fragment/IntroFragment.java
+ com.mcal.studio.fragment.IntroFragment
+com/mcal/studio/adapter/FileAdapter.java
+ com.mcal.studio.adapter.FileAdapter
+com/mcal/studio/activity/SplashActivity.java
+ com.mcal.studio.activity.SplashActivity
+ com.mcal.studio.activity.SplashActivity$1
+ com.mcal.studio.activity.SplashActivity$2
+ com.mcal.studio.activity.SplashActivity$3
+com/mcal/studio/activity/SettingsActivity.java
+ com.mcal.studio.activity.SettingsActivity
+com/mcal/studio/widget/holder/TagTreeHolder.java
+ com.mcal.studio.widget.holder.TagTreeHolder
+ com.mcal.studio.widget.holder.TagTreeHolder$1
+ com.mcal.studio.widget.holder.TagTreeHolder$1$1
+ com.mcal.studio.widget.holder.TagTreeHolder$1$1$1
+ com.mcal.studio.widget.holder.TagTreeHolder$1$1$2
+ com.mcal.studio.widget.holder.TagTreeHolder$1$1$2$1
+ com.mcal.studio.widget.holder.TagTreeHolder$1$1$3
+ com.mcal.studio.widget.holder.TagTreeHolder$1$1$3$1
+ com.mcal.studio.widget.holder.TagTreeHolder$TagTreeItem
+com/mcal/studio/fragment/analyze/AnalyzeFileFragment.java
+ com.mcal.studio.fragment.analyze.AnalyzeFileFragment
+ com.mcal.studio.fragment.analyze.AnalyzeFileFragment$1
+ com.mcal.studio.fragment.analyze.AnalyzeFileFragment$SizeValueFormatter
+com/mcal/studio/fragment/ImageFragment.java
+ com.mcal.studio.fragment.ImageFragment
+ com.mcal.studio.fragment.ImageFragment$1
+ com.mcal.studio.fragment.ImageFragment$1$1
+com/mcal/studio/activity/WebActivity.java
+ com.mcal.studio.activity.WebActivity
+ com.mcal.studio.activity.WebActivity$1
+ com.mcal.studio.activity.WebActivity$1$1
+ com.mcal.studio.activity.WebActivity$1$2
+ com.mcal.studio.activity.WebActivity$1$3
+ com.mcal.studio.activity.WebActivity$10
+ com.mcal.studio.activity.WebActivity$11
+ com.mcal.studio.activity.WebActivity$12
+ com.mcal.studio.activity.WebActivity$13
+ com.mcal.studio.activity.WebActivity$14
+ com.mcal.studio.activity.WebActivity$15
+ com.mcal.studio.activity.WebActivity$16
+ com.mcal.studio.activity.WebActivity$17
+ com.mcal.studio.activity.WebActivity$18
+ com.mcal.studio.activity.WebActivity$19
+ com.mcal.studio.activity.WebActivity$2
+ com.mcal.studio.activity.WebActivity$20
+ com.mcal.studio.activity.WebActivity$21
+ com.mcal.studio.activity.WebActivity$22
+ com.mcal.studio.activity.WebActivity$3
+ com.mcal.studio.activity.WebActivity$3$1
+ com.mcal.studio.activity.WebActivity$4
+ com.mcal.studio.activity.WebActivity$5
+ com.mcal.studio.activity.WebActivity$6
+ com.mcal.studio.activity.WebActivity$7
+ com.mcal.studio.activity.WebActivity$8
+ com.mcal.studio.activity.WebActivity$9
+com/mcal/studio/helper/ProjectManager.java
+ com.mcal.studio.helper.ProjectManager
+com/mcal/studio/activity/ViewActivity.java
+ com.mcal.studio.activity.ViewActivity
+ com.mcal.studio.activity.ViewActivity$1
+ com.mcal.studio.activity.ViewActivity$2
+com/mcal/studio/adapter/GitLogsAdapter.java
+ com.mcal.studio.adapter.GitLogsAdapter
+ com.mcal.studio.adapter.GitLogsAdapter$1
+ com.mcal.studio.adapter.GitLogsAdapter$2
+ com.mcal.studio.adapter.GitLogsAdapter$ViewHolder
+com/mcal/studio/activity/RemotesActivity.java
+ com.mcal.studio.activity.RemotesActivity
+ com.mcal.studio.activity.RemotesActivity$1
+ com.mcal.studio.activity.RemotesActivity$1$1
+ com.mcal.studio.activity.RemotesActivity$2
+com/mcal/studio/widget/DiffView.java
+ com.mcal.studio.widget.DiffView
+com/mcal/studio/adapter/AttrsAdapter.java
+ com.mcal.studio.adapter.AttrsAdapter
+ com.mcal.studio.adapter.AttrsAdapter$1
+ com.mcal.studio.adapter.AttrsAdapter$1$1
+ com.mcal.studio.adapter.AttrsAdapter$AttrsHolder
+com/mcal/studio/editor/Editor.java
+ com.mcal.studio.editor.Editor
+ com.mcal.studio.editor.Editor$1
+ com.mcal.studio.editor.Editor$2
+ com.mcal.studio.editor.Editor$3
+ com.mcal.studio.editor.Editor$4
+ com.mcal.studio.editor.Editor$5
+ com.mcal.studio.editor.Editor$6
+ com.mcal.studio.editor.Editor$CodeType
+ com.mcal.studio.editor.Editor$EditorCallback
+ com.mcal.studio.editor.Editor$EditorCallback$1
+ com.mcal.studio.editor.Editor$OnTextChangedListener
+com/mcal/studio/adapter/LogsAdapter.java
+ com.mcal.studio.adapter.LogsAdapter
+ com.mcal.studio.adapter.LogsAdapter$1
+ com.mcal.studio.adapter.LogsAdapter$ViewHolder
+com/mcal/studio/fragment/SettingsFragment.java
+ com.mcal.studio.fragment.SettingsFragment
+ com.mcal.studio.fragment.SettingsFragment$1
+ com.mcal.studio.fragment.SettingsFragment$2
+ com.mcal.studio.fragment.SettingsFragment$3
+ com.mcal.studio.fragment.SettingsFragment$4
+ com.mcal.studio.fragment.SettingsFragment$4$1
+ com.mcal.studio.fragment.SettingsFragment$5
+com/mcal/studio/activity/MainActivity.java
+ com.mcal.studio.activity.MainActivity
+ com.mcal.studio.activity.MainActivity$1
+ com.mcal.studio.activity.MainActivity$2
+ com.mcal.studio.activity.MainActivity$2$1
+ com.mcal.studio.activity.MainActivity$2$1$1
+ com.mcal.studio.activity.MainActivity$2$1$2
+ com.mcal.studio.activity.MainActivity$3
+ com.mcal.studio.activity.MainActivity$4

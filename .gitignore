@@ -1,12 +1,28 @@
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
 *.iml
+.idea
 .gradle
-gradlew
-gradlew.bat
-/local.properties
-/.idea
-/gradle
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-*.keystore
+build/
+
+#NDK
+obj/

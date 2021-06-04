@@ -1,94 +1,578 @@
 [
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_intro_logo.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_intro_logo.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\drawable\\ic_add.xml"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_java.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_java.png"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_run.xml.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\drawable\\ic_run.xml"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\raw_edl_v10.txt.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\raw\\edl_v10.txt"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_js.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_js.png"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about.xml.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\drawable\\ic_about.xml"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_alert_error.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_alert_error.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_on.xml.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\drawable\\button_on.xml"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_dialog_list.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\item_dialog_list.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_clear.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_clear.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\layout\\toolbar.xml"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_font.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_font.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_remote.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\item_remote.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button.xml.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\drawable\\button.xml"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_element_edit.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_action_element_edit.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\font_google_sans_regular.ttf.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\font\\google_sans_regular.ttf"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_remote_add.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\dialog_remote_add.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_web_hi_res_512.png.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\drawable\\web_hi_res_512.png"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_overflow_root.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_overflow_root.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\font_google_sans_bold.ttf.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\font\\google_sans_bold.ttf"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_project.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\menu\\menu_project.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_git_small.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_git_small.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_element.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\item_element.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_zip.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_zip.png"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_log.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\item_log.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_intro_logo.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_intro_logo.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_off.xml.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\drawable\\button_off.xml"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_git_status.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\item_git_status.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_attr.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\item_attr.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_intro.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\fragment_intro.xml"
     },
     {
-        "merged": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\res\\merged\\debug\\font_google_sans_medium.ttf.flat",
-        "source": "E:\\AppProjects\\Android-IDE\\app\\src\\main\\res\\font\\google_sans_medium.ttf"
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\xml_filepaths.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\xml\\filepaths.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\xml_settings.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\xml\\settings.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_refactor.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\dialog_refactor.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_wordwrap.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_wordwrap.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_drawer_shadow.9.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-hdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_import.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_action_import.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_theme.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_theme.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_intro_done.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_intro_done.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_element_info.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\dialog_element_info.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_line_numbers.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_line_numbers.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_file_browser.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\item_file_browser.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_image.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_image.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_pull.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\dialog_pull.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_push.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\dialog_push.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_file.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_web.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\menu\\menu_web.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_overflow.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_overflow.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lua.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_lua.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_file_project.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\item_file_project.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_intro_git.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_intro_git.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_drawer_shadow.9.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-mdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_sheet_web_settings.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\sheet_web_settings.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_diff.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\dialog_diff.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_input_single.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\dialog_input_single.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_gradle.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_gradle.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\raw_notices.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\raw\\notices.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_php.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_php.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_json.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_json.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_binary.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_binary.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_alert_error.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_alert_error.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_jar.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_jar.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_web.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\activity_web.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_license.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_license.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_wordwrap.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_wordwrap.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_view.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\menu\\menu_view.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_font.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_font.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tab.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_tab.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_theme.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_theme.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_overflow.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_overflow.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_tag_options.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\menu\\menu_tag_options.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_project.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\item_project.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_folder.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_folder.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_h.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_h.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_git_branch.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\dialog_git_branch.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pref_shadow_bottom.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\pref_shadow_bottom.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mf.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_mf.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_browser_arrow.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_browser_arrow.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_csharp.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_csharp.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_intro_editor.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_intro_editor.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rar.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_rar.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_action_element_edit.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_action_element_edit.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\activity_view.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_done.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_action_done.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_xml.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_xml.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_compile.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_compile.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clear.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_clear.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_action_import.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_action_import.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_android.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_android.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_intro_logo_n.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_intro_logo_n.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_action_done.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_action_done.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_drawer_shadow.9.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-xxhdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_code_theme.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_code_theme.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_intro_editor.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_intro_editor.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_code_theme.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_code_theme.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_txt.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_txt.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_css.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_css.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_android.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_android.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_analyze.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\activity_analyze.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_line_numbers.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_line_numbers.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_clone.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\dialog_clone.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_remotes.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\activity_remotes.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_analyze_file.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\fragment_analyze_file.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_intro.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\activity_intro.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_create.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\dialog_create.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget_toolbar.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\widget_toolbar.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_overflow_root.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_overflow_root.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pref_shadow_top.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\pref_shadow_top.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_compile.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_compile.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_drawer_shadow.9.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-xxxhdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_kotlin.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_kotlin.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_git_log.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\item_git_log.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_element_add.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\dialog_element_add.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_sheet_logs.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\sheet_logs.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_bottom_shadow.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\bottom_shadow.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_git_small.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_git_small.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_intro_logo_n.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_intro_logo_n.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_binary.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_binary.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_shadow.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\bottom_shadow.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_c.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_c.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_file.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_file.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_aar.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_aar.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_project.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\activity_project.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_folder.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_folder.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_intro_git.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_intro_git.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_drawer_shadow.9.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-xhdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_intro_done.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_intro_done.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_html.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_html.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_license.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_license.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_editor.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\fragment_editor.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_browser_arrow.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_browser_arrow.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_file_options.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\menu\\menu_file_options.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cpp.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_cpp.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_image.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_image.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_hpp.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_hpp.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_unknown.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable\\ic_unknown.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_import.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\dialog_import.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_sheet_about.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\sheet_about.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_category.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\layout\\preference_category.xml"
+    },
+    {
+        "merged": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_tab.xml.flat",
+        "source": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\src\\main\\res\\drawable-night\\ic_tab.xml"
     }
 ]

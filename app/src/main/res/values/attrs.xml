@@ -1,0 +1,8 @@
+<resources>
+    <attr name="toolbarStyle" format="reference" />
+    <attr name="toolbarPopupStyle" format="reference" />
+    <attr name="symbolColor" format="color" />
+    <declare-styleable name="ScrimInsetsFrameLayout">
+        <attr name="insetForeground" format="reference|color" />
+    </declare-styleable>
+</resources>
