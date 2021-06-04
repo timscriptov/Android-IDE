@@ -22,7 +22,6 @@ Thumbs.db
 *.iml
 .idea
 .gradle
-build/
 
 #NDK
 obj/
