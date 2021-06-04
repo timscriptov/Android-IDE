@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
+            "outputFile": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
             "map": [
                 {
                     "source": "C:\\Users\\TimScriptov\\.gradle\\caches\\transforms-2\\files-2.1\\2730d74d200c17936a122ce975a9aa70\\material-1.3.0\\res\\values-bs\\values-bs.xml",

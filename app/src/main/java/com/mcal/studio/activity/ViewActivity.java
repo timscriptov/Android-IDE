@@ -65,7 +65,7 @@ public class ViewActivity extends AppCompatActivity {
         AndroidTreeView treeView = new AndroidTreeView(ViewActivity.this, rootNode);
         treeView.setDefaultAnimation(true);
         treeView.setDefaultViewHolder(TagTreeHolder.class);
-        treeView.setDefaultContainerStyle(R.style.TreeNodeStyle);
+        treeView.setDefaultContainerStyle(R.style.AppTheme_TreeNodeStyle);
         viewLayout.addView(treeView.getView());
     }
 

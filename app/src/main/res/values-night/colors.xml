@@ -1,6 +1,6 @@
 <resources>
-    <color name="colorPrimary">#424242</color>
-    <color name="colorPrimaryDark">#282828</color>
+    <color name="colorPrimary">#FF202125</color>
+    <color name="colorPrimaryDark">#FF202125</color>
     <color name="colorAccent">#2979FF</color>
 
     <!-- WHY IS THIS A THING??? -->

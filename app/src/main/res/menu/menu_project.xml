@@ -6,8 +6,8 @@
         app:showAsAction="never" />
     <item
         android:id="@+id/run"
-        android:title="Run"
         android:icon="@drawable/ic_compile"
+        android:title="Run"
         app:showAsAction="ifRoom" />
 
     <item

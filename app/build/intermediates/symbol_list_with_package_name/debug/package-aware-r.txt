@@ -2923,6 +2923,7 @@ style Animation_MaterialComponents_BottomSheetDialog
 style AppTheme
 style AppTheme_Project
 style AppTheme_Toolbar
+style AppTheme_TreeNodeStyle
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

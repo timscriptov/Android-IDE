@@ -6,8 +6,8 @@
 
         <androidx.preference.SwitchPreference
             android:defaultValue="false"
-            android:key="dark_theme"
             android:icon="@drawable/ic_theme"
+            android:key="dark_theme"
             android:summary="@string/dark_theme_desc"
             android:title="@string/dark_theme" />
 
@@ -19,22 +19,22 @@
 
         <androidx.preference.SwitchPreference
             android:defaultValue="false"
-            android:key="dark_theme_editor"
             android:icon="@drawable/ic_code_theme"
+            android:key="dark_theme_editor"
             android:summary="@string/dark_theme_editor_desc"
             android:title="@string/dark_theme_editor" />
 
         <androidx.preference.SwitchPreference
             android:defaultValue="true"
-            android:key="show_line_numbers"
             android:icon="@drawable/ic_line_numbers"
+            android:key="show_line_numbers"
             android:summary="Display line numbers next to Editor."
             android:title="Show Line Numbers" />
 
         <androidx.preference.SwitchPreference
             android:defaultValue="false"
-            android:key="wordwrap"
             android:icon="@drawable/ic_wordwrap"
+            android:key="wordwrap"
             android:summary="Use soft wrap in editor."
             android:title="Wordwrap" />
 
@@ -45,8 +45,8 @@
         android:title="Misc">
 
         <androidx.preference.Preference
-            android:key="factory_reset"
             android:icon="@drawable/ic_clear"
+            android:key="factory_reset"
             android:summary="This will delete all of your projects! Use with caution."
             android:title="Factory Reset" />
 
@@ -57,8 +57,8 @@
         android:title="@string/label_legal">
 
         <androidx.preference.Preference
-            android:key="notices"
             android:icon="@drawable/ic_license"
+            android:key="notices"
             android:title="@string/notices" />
 
     </PreferenceCategory>

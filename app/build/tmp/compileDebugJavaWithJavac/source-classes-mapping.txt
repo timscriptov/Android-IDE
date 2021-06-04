@@ -1,16 +1,16 @@
 com/mcal/studio/data/gson/firebase/ClientInfo.java
  com.mcal.studio.data.gson.firebase.ClientInfo
-com/mcal/studio/builder/ApkMaker.java
- com.mcal.studio.builder.ApkMaker
+com/mcal/studio/git/PullTask.java
+ com.mcal.studio.git.PullTask
+ com.mcal.studio.git.PullTask$1
 com/mcal/studio/BuildConfig.java
  com.mcal.studio.BuildConfig
 com/mcal/studio/utils/AbiInfo.java
  com.mcal.studio.utils.AbiInfo
 com/mcal/studio/builder/BuildCallback.java
  com.mcal.studio.builder.BuildCallback
-com/mcal/studio/data/NightMode.java
- com.mcal.studio.data.NightMode
- com.mcal.studio.data.NightMode$Mode
+com/mcal/studio/builder/ApkMaker.java
+ com.mcal.studio.builder.ApkMaker
 com/mcal/studio/helper/ProjectFiles.java
  com.mcal.studio.helper.ProjectFiles
  com.mcal.studio.helper.ProjectFiles$Default
@@ -30,9 +30,8 @@ com/mcal/studio/data/gson/firebase/Firebase.java
 com/mcal/studio/git/FetchTask.java
  com.mcal.studio.git.FetchTask
  com.mcal.studio.git.FetchTask$1
-com/mcal/studio/git/PullTask.java
- com.mcal.studio.git.PullTask
- com.mcal.studio.git.PullTask$1
+com/mcal/studio/text/HtmlCompat.java
+ com.mcal.studio.text.HtmlCompat
 com/mcal/studio/data/gson/build/DefaultConfig.java
  com.mcal.studio.data.gson.build.DefaultConfig
 com/mcal/studio/data/gson/firebase/OauthClient.java
@@ -67,27 +66,28 @@ com/mcal/studio/editor/Colors.java
  com.mcal.studio.editor.Colors
 com/mcal/studio/editor/patterns/PatternsJson.java
  com.mcal.studio.editor.patterns.PatternsJson
-com/mcal/studio/data/gson/firebase/ProjectInfo.java
- com.mcal.studio.data.gson.firebase.ProjectInfo
+com/mcal/studio/data/NightMode.java
+ com.mcal.studio.data.NightMode
+ com.mcal.studio.data.NightMode$Mode
 com/mcal/studio/data/gson/firebase/Client.java
  com.mcal.studio.data.gson.firebase.Client
+com/mcal/studio/data/gson/firebase/ProjectInfo.java
+ com.mcal.studio.data.gson.firebase.ProjectInfo
 com/mcal/studio/data/gson/build/BuildTypes.java
  com.mcal.studio.data.gson.build.BuildTypes
-com/mcal/studio/editor/patterns/PatternsGradle.java
- com.mcal.studio.editor.patterns.PatternsGradle
 com/mcal/studio/git/PushTask.java
  com.mcal.studio.git.PushTask
  com.mcal.studio.git.PushTask$1
  com.mcal.studio.git.PushTask$2
-com/mcal/studio/utils/FileUtils.java
- com.mcal.studio.utils.FileUtils
+com/mcal/studio/widget/DiffView.java
+ com.mcal.studio.widget.DiffView
 com/mcal/studio/data/Constants.java
  com.mcal.studio.data.Constants
 com/mcal/studio/helper/Clipboard.java
  com.mcal.studio.helper.Clipboard
  com.mcal.studio.helper.Clipboard$Type
-com/mcal/studio/text/HtmlCompat.java
- com.mcal.studio.text.HtmlCompat
+com/mcal/studio/editor/patterns/PatternsGradle.java
+ com.mcal.studio.editor.patterns.PatternsGradle
 com/mcal/studio/data/gson/build/DependenciesJava.java
  com.mcal.studio.data.gson.build.DependenciesJava
 com/mcal/studio/utils/Utils.java
@@ -100,6 +100,8 @@ com/mcal/studio/builder/Compiler.java
  com.mcal.studio.builder.Compiler
 com/mcal/studio/editor/patterns/PatternsJava.java
  com.mcal.studio.editor.patterns.PatternsJava
+com/mcal/studio/utils/FileUtils.java
+ com.mcal.studio.utils.FileUtils
 com/mcal/studio/git/GitTask.java
  com.mcal.studio.git.GitTask
 com/mcal/studio/helper/DataValidator.java
@@ -143,40 +145,23 @@ com/mcal/studio/activity/IntroActivity.java
  com.mcal.studio.activity.IntroActivity$1
  com.mcal.studio.activity.IntroActivity$2
  com.mcal.studio.activity.IntroActivity$3
-com/mcal/studio/adapter/ProjectAdapter.java
- com.mcal.studio.adapter.ProjectAdapter
- com.mcal.studio.adapter.ProjectAdapter$1
- com.mcal.studio.adapter.ProjectAdapter$2
- com.mcal.studio.adapter.ProjectAdapter$2$1
- com.mcal.studio.adapter.ProjectAdapter$MyViewHolder
-com/mcal/studio/activity/ProjectActivity.java
- com.mcal.studio.activity.ProjectActivity
- com.mcal.studio.activity.ProjectActivity$1
- com.mcal.studio.activity.ProjectActivity$10
- com.mcal.studio.activity.ProjectActivity$11
- com.mcal.studio.activity.ProjectActivity$11$1
- com.mcal.studio.activity.ProjectActivity$12
- com.mcal.studio.activity.ProjectActivity$13
- com.mcal.studio.activity.ProjectActivity$14
- com.mcal.studio.activity.ProjectActivity$15
- com.mcal.studio.activity.ProjectActivity$16
- com.mcal.studio.activity.ProjectActivity$17
- com.mcal.studio.activity.ProjectActivity$18
- com.mcal.studio.activity.ProjectActivity$19
- com.mcal.studio.activity.ProjectActivity$2
- com.mcal.studio.activity.ProjectActivity$3
- com.mcal.studio.activity.ProjectActivity$4
- com.mcal.studio.activity.ProjectActivity$4$1
- com.mcal.studio.activity.ProjectActivity$4$1$1
- com.mcal.studio.activity.ProjectActivity$4$1$2
- com.mcal.studio.activity.ProjectActivity$5
- com.mcal.studio.activity.ProjectActivity$5$1
- com.mcal.studio.activity.ProjectActivity$5$1$1
- com.mcal.studio.activity.ProjectActivity$5$1$2
- com.mcal.studio.activity.ProjectActivity$6
- com.mcal.studio.activity.ProjectActivity$7
- com.mcal.studio.activity.ProjectActivity$8
- com.mcal.studio.activity.ProjectActivity$9
+com/mcal/studio/fragment/SettingsFragment.java
+ com.mcal.studio.fragment.SettingsFragment
+ com.mcal.studio.fragment.SettingsFragment$1
+ com.mcal.studio.fragment.SettingsFragment$2
+ com.mcal.studio.fragment.SettingsFragment$3
+ com.mcal.studio.fragment.SettingsFragment$4
+ com.mcal.studio.fragment.SettingsFragment$4$1
+ com.mcal.studio.fragment.SettingsFragment$5
+com/mcal/studio/activity/MainActivity.java
+ com.mcal.studio.activity.MainActivity
+ com.mcal.studio.activity.MainActivity$1
+ com.mcal.studio.activity.MainActivity$2
+ com.mcal.studio.activity.MainActivity$2$1
+ com.mcal.studio.activity.MainActivity$2$1$1
+ com.mcal.studio.activity.MainActivity$2$1$2
+ com.mcal.studio.activity.MainActivity$3
+ com.mcal.studio.activity.MainActivity$4
 com/mcal/studio/activity/AnalyzeActivity.java
  com.mcal.studio.activity.AnalyzeActivity
 com/mcal/studio/fragment/IntroFragment.java
@@ -238,10 +223,12 @@ com/mcal/studio/activity/WebActivity.java
  com.mcal.studio.activity.WebActivity$9
 com/mcal/studio/helper/ProjectManager.java
  com.mcal.studio.helper.ProjectManager
-com/mcal/studio/activity/ViewActivity.java
- com.mcal.studio.activity.ViewActivity
- com.mcal.studio.activity.ViewActivity$1
- com.mcal.studio.activity.ViewActivity$2
+com/mcal/studio/adapter/ProjectAdapter.java
+ com.mcal.studio.adapter.ProjectAdapter
+ com.mcal.studio.adapter.ProjectAdapter$1
+ com.mcal.studio.adapter.ProjectAdapter$2
+ com.mcal.studio.adapter.ProjectAdapter$2$1
+ com.mcal.studio.adapter.ProjectAdapter$MyViewHolder
 com/mcal/studio/adapter/GitLogsAdapter.java
  com.mcal.studio.adapter.GitLogsAdapter
  com.mcal.studio.adapter.GitLogsAdapter$1
@@ -252,8 +239,6 @@ com/mcal/studio/activity/RemotesActivity.java
  com.mcal.studio.activity.RemotesActivity$1
  com.mcal.studio.activity.RemotesActivity$1$1
  com.mcal.studio.activity.RemotesActivity$2
-com/mcal/studio/widget/DiffView.java
- com.mcal.studio.widget.DiffView
 com/mcal/studio/adapter/AttrsAdapter.java
  com.mcal.studio.adapter.AttrsAdapter
  com.mcal.studio.adapter.AttrsAdapter$1
@@ -275,20 +260,35 @@ com/mcal/studio/adapter/LogsAdapter.java
  com.mcal.studio.adapter.LogsAdapter
  com.mcal.studio.adapter.LogsAdapter$1
  com.mcal.studio.adapter.LogsAdapter$ViewHolder
-com/mcal/studio/fragment/SettingsFragment.java
- com.mcal.studio.fragment.SettingsFragment
- com.mcal.studio.fragment.SettingsFragment$1
- com.mcal.studio.fragment.SettingsFragment$2
- com.mcal.studio.fragment.SettingsFragment$3
- com.mcal.studio.fragment.SettingsFragment$4
- com.mcal.studio.fragment.SettingsFragment$4$1
- com.mcal.studio.fragment.SettingsFragment$5
-com/mcal/studio/activity/MainActivity.java
- com.mcal.studio.activity.MainActivity
- com.mcal.studio.activity.MainActivity$1
- com.mcal.studio.activity.MainActivity$2
- com.mcal.studio.activity.MainActivity$2$1
- com.mcal.studio.activity.MainActivity$2$1$1
- com.mcal.studio.activity.MainActivity$2$1$2
- com.mcal.studio.activity.MainActivity$3
- com.mcal.studio.activity.MainActivity$4
+com/mcal/studio/activity/ViewActivity.java
+ com.mcal.studio.activity.ViewActivity
+ com.mcal.studio.activity.ViewActivity$1
+ com.mcal.studio.activity.ViewActivity$2
+com/mcal/studio/activity/ProjectActivity.java
+ com.mcal.studio.activity.ProjectActivity
+ com.mcal.studio.activity.ProjectActivity$1
+ com.mcal.studio.activity.ProjectActivity$10
+ com.mcal.studio.activity.ProjectActivity$11
+ com.mcal.studio.activity.ProjectActivity$11$1
+ com.mcal.studio.activity.ProjectActivity$12
+ com.mcal.studio.activity.ProjectActivity$13
+ com.mcal.studio.activity.ProjectActivity$14
+ com.mcal.studio.activity.ProjectActivity$15
+ com.mcal.studio.activity.ProjectActivity$16
+ com.mcal.studio.activity.ProjectActivity$17
+ com.mcal.studio.activity.ProjectActivity$18
+ com.mcal.studio.activity.ProjectActivity$19
+ com.mcal.studio.activity.ProjectActivity$2
+ com.mcal.studio.activity.ProjectActivity$3
+ com.mcal.studio.activity.ProjectActivity$4
+ com.mcal.studio.activity.ProjectActivity$4$1
+ com.mcal.studio.activity.ProjectActivity$4$1$1
+ com.mcal.studio.activity.ProjectActivity$4$1$2
+ com.mcal.studio.activity.ProjectActivity$5
+ com.mcal.studio.activity.ProjectActivity$5$1
+ com.mcal.studio.activity.ProjectActivity$5$1$1
+ com.mcal.studio.activity.ProjectActivity$5$1$2
+ com.mcal.studio.activity.ProjectActivity$6
+ com.mcal.studio.activity.ProjectActivity$7
+ com.mcal.studio.activity.ProjectActivity$8
+ com.mcal.studio.activity.ProjectActivity$9

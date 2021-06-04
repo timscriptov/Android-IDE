@@ -53,7 +53,6 @@ import com.mcal.studio.fragment.ImageFragment;
 import com.mcal.studio.git.GitWrapper;
 import com.mcal.studio.helper.Clipboard;
 import com.mcal.studio.helper.Constants;
-import com.mcal.studio.helper.HTMLParser;
 import com.mcal.studio.helper.ProjectManager;
 import com.mcal.studio.helper.ResourceHelper;
 import com.mcal.studio.utils.InstallProvider;
@@ -120,7 +119,6 @@ public class ProjectActivity extends AppCompatActivity {
     private File projectDir, indexFile;
     private TreeNode rootNode;
     private AndroidTreeView treeView;
-    private String[] props;
     private ProgressDialog progressDialog;
     private PowerManager powerManager;
     private PowerManager.WakeLock wakeLock;
@@ -147,7 +145,6 @@ public class ProjectActivity extends AppCompatActivity {
             openFiles.add(indexFile.getPath());
         }
 
-        props = HTMLParser.getProperties(projectName, projectDir.toString());
         fileSpinner = new Spinner(this);
         fileAdapter = new FileAdapter(this, openFiles);
         fileSpinner.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
@@ -182,7 +179,6 @@ public class ProjectActivity extends AppCompatActivity {
 
             @Override
             public void onDrawerOpened(@NonNull View drawerView) {
-                props = HTMLParser.getProperties(projectName, projectDir.toString());
                 headerTitle.setText(projectDir.getName());
             }
 
@@ -204,7 +200,7 @@ public class ProjectActivity extends AppCompatActivity {
         treeView = new AndroidTreeView(ProjectActivity.this, rootNode);
         treeView.setDefaultAnimation(true);
         treeView.setDefaultViewHolder(FileTreeHolder.class);
-        treeView.setDefaultContainerStyle(R.style.TreeNodeStyle);
+        treeView.setDefaultContainerStyle(R.style.AppTheme_TreeNodeStyle);
         treeView.setDefaultNodeClickListener(new TreeNode.TreeNodeClickListener() {
             @Override
             public void onClick(TreeNode node, Object value) {

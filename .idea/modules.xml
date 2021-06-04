@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0.iml" filepath="$PROJECT_DIR$/.idea/modules/Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-IDE.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-IDE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-IDE.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-IDE.app.iml" />
     </modules>
   </component>
 </project>

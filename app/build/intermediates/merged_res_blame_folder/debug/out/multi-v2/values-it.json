@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AppProjects\\Hyper-e456773d6f2ce94b29eca2794f0d26366b2e50c0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-it\\values-it.xml",
+            "outputFile": "E:\\AppProjects\\Android-IDE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-it\\values-it.xml",
             "map": [
                 {
                     "source": "C:\\Users\\TimScriptov\\.gradle\\caches\\transforms-2\\files-2.1\\29c975608db0f9bc7b40c6e70fc73d01\\jetified-licensesdialog-2.2.0\\res\\values-it\\values-it.xml",
