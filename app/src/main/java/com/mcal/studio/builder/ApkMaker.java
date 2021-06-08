@@ -4,6 +4,8 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.AsyncTask;
 
+import androidx.appcompat.app.AlertDialog;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.mcal.studio.data.gson.build.Android;
@@ -39,6 +41,7 @@ public class ApkMaker extends AsyncTask<String, String, String> {
     private File bin;
     private File androidxLibs;
     private File libs;
+    private File aarLibs;
     private File sdk;
     private File keys;
     private File jars;
@@ -83,6 +86,7 @@ public class ApkMaker extends AsyncTask<String, String, String> {
         buildBin = new File(project, "app/build/bin");
         release = new File(project, "app/release");
         libs = new File(project, "app/libs");
+        aarLibs = new File(project, "app/build/libs");
         jniLibs = new File(project, "app/src/main/lib"); // Shared libraries
         gen = new File(project, "app/build/gen");
         genFirebase = new File(project, "app/build/res");
@@ -111,6 +115,7 @@ public class ApkMaker extends AsyncTask<String, String, String> {
             if (!buildBin.exists()) buildBin.mkdirs();
             if (!release.exists()) release.mkdirs();
             if (!libs.exists()) libs.mkdirs();
+            if (!aarLibs.exists()) aarLibs.mkdirs();
             if (!gen.exists()) gen.mkdirs();
             if (!genFirebase.exists()) genFirebase.mkdirs();
             if (!classes.exists()) classes.mkdirs();
@@ -184,6 +189,17 @@ public class ApkMaker extends AsyncTask<String, String, String> {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+        }
+
+        try {
+            for (File file : libs.listFiles()) {
+                if (file.getName().endsWith(".aar")) {
+                    ZipFile zipFile = new ZipFile(new File(libs, file.getName()).getAbsolutePath());
+                    zipFile.extractAll(new File(aarLibs + File.separator + file.getName().replace(".aar", "")).getAbsolutePath());
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
         if (androidxLibs.listFiles().length == 0) {
@@ -271,6 +287,13 @@ public class ApkMaker extends AsyncTask<String, String, String> {
                     }
                 }
             }
+
+            for (File f : aarLibs.listFiles()) {
+                if (!allLibs.contains(f.getName())) {
+                    allLibs.add(f);
+                }
+            }
+
             StringBuilder s = new StringBuilder();
             for (File f : allLibs) {
                 s.append(f.getAbsolutePath());
@@ -480,7 +503,6 @@ public class ApkMaker extends AsyncTask<String, String, String> {
             cmd.append(" --pg-conf " + s);
         }
         getAllFilesOfDir(".class", classes.getAbsolutePath(), cmd);
-        getAllFilesOfDir(".jar", libs.getAbsolutePath(), cmd);// app/libs/*.jar
         for (String s : allJar) {
             cmd.append(" ");
             cmd.append(s);
@@ -495,11 +517,11 @@ public class ApkMaker extends AsyncTask<String, String, String> {
     }
 
     private void mergeDex() throws Exception {
-        List<String> allDex = new ArrayList<>();
+        List<String> allJar = new ArrayList<>();
         for (File f : allLibs) {
-            File dex = new File(f, "classes.dex");
-            if (dex.exists()) {
-                allDex.add(dex.getAbsolutePath());
+            File jar = new File(f, "classes.jar");
+            if (jar.exists()) {
+                allJar.add(jar.getAbsolutePath());
             }
         }
 
@@ -510,8 +532,7 @@ public class ApkMaker extends AsyncTask<String, String, String> {
         cmd.append(" --output " + dexes.getAbsolutePath());
         cmd.append(" --intermediate");
         getAllFilesOfDir(".dex", classes.getAbsolutePath(), cmd);
-        getAllFilesOfDir(".jar", libs.getAbsolutePath(), cmd);// app/libs/*.jar
-        for (String s : allDex) {
+        for (String s : allJar) {
             cmd.append(" ");
             cmd.append(s);
         }
@@ -687,6 +708,7 @@ public class ApkMaker extends AsyncTask<String, String, String> {
             cmd.add("-S");
             cmd.add(new File(project, "app/build/res").getAbsolutePath());
         }
+
         cmd.add("-m");
         cmd.add("-J");
         cmd.add(gen.getAbsolutePath());
@@ -741,8 +763,8 @@ public class ApkMaker extends AsyncTask<String, String, String> {
     }
 
     private void mergeManifest() throws Exception {
-        String main = project.getAbsolutePath() + "/app/src/main/AndroidManifest.xml";
-        String output = buildBin.getAbsolutePath() + "/AndroidManifest.xml";
+        String main = project + "/app/src/main/AndroidManifest.xml";
+        String output = buildBin + "/AndroidManifest.xml";
         int i = 0;
         for (File f : allLibs) {
             File f2 = new File(f, "AndroidManifest.xml");
@@ -755,7 +777,8 @@ public class ApkMaker extends AsyncTask<String, String, String> {
         for (File f : temp.listFiles()) {
             manifests.add(f.getAbsolutePath());
         }
-        String error = Merger.merge(context, output, main, new String[0], manifests.toArray(new String[0]));
+
+        String error = Merger.merge(context, main, manifests.toArray(new String[0]), output);
         if (error != null) {
             throw new Exception(error);
         }

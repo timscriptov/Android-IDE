@@ -1,5 +1,6 @@
 package com.mcal.studio.fragment;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
@@ -102,6 +103,8 @@ public class EditorFragment extends Fragment {
         unbinder = ButterKnife.bind(this, rootView);
 
         String filename = file.getName();
+        editText.setTextSize(16);
+        editText.setTypeface(Typeface.MONOSPACE);
         if (filename.endsWith(".html")) {
             editText.setType(Editor.CodeType.HTML);
             setSymbol(editText, symbolTab, "\t\t");

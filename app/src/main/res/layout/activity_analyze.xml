@@ -19,6 +19,7 @@
             android:id="@+id/analyze_tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#43A047"
             app:tabGravity="fill"
             app:tabIndicatorColor="?attr/symbolColor"
             app:tabMode="fixed"

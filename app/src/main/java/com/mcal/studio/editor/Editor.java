@@ -88,7 +88,6 @@ public class Editor extends AppCompatMultiAutoCompleteTextView {
      */
     private Paint numberPaint, lineShadowPaint;
     private boolean isHighlighting;
-    private boolean isWordWrap = false;
 
     private Colors colors;
     private Patterns patterns;
@@ -419,9 +418,15 @@ public class Editor extends AppCompatMultiAutoCompleteTextView {
                     }
                     break;
                 case XML:
-                    for (m = patternsXml.getPatternKeywords().matcher(e); m.find(); ) {
+                    for (m = patternsXml.getPatternStartElement().matcher(e); m.find(); ) {
                         if (e.toString().charAt(m.start() - 1) == '<' || e.toString().charAt(m.start() - 1) == '/') {
-                            e.setSpan(new ForegroundColorSpan(colors.getColorKeyword()), m.start(), m.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                            e.setSpan(new ForegroundColorSpan(PatternsXml.colorStartElement), m.start(), m.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                        }
+                    }
+
+                    for (m = patternsXml.getPatternEndElement().matcher(e); m.find(); ) {
+                        if (e.toString().charAt(m.start() - 1) == '<' || e.toString().charAt(m.start() - 1) == '/') {
+                            e.setSpan(new ForegroundColorSpan(PatternsXml.colorEndElement), m.start(), m.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
                         }
                     }
 
@@ -429,8 +434,28 @@ public class Editor extends AppCompatMultiAutoCompleteTextView {
                         e.setSpan(new ForegroundColorSpan(colors.getColorStrings()), m.start(), m.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
                     }
 
+                    for (m = patternsXml.getPatternStrings().matcher(e); m.find(); ) {
+                        e.setSpan(new ForegroundColorSpan(PatternsXml.colorStrings), m.start(), m.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    }
+
+                    for (m = patternsXml.getPatternStartTag().matcher(e); m.find(); ) {
+                        e.setSpan(new ForegroundColorSpan(PatternsXml.colorStartTag), m.start(), m.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    }
+
+                    for (m = patternsXml.getPatternEndTag().matcher(e); m.find(); ) {
+                        e.setSpan(new ForegroundColorSpan(PatternsXml.colorEndTag), m.start(), m.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    }
+
                     for (m = patternsXml.getPatternComments().matcher(e); m.find(); ) {
                         e.setSpan(new ForegroundColorSpan(colors.getColorComment()), m.start(), m.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    }
+
+                    for (m = patternsXml.getPatternAfterXmlns().matcher(e); m.find(); ) {
+                        e.setSpan(new ForegroundColorSpan(PatternsXml.colorStartTag), m.start(), m.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    }
+
+                    for (m = patternsXml.getPatternXmlns().matcher(e); m.find(); ) {
+                        e.setSpan(new ForegroundColorSpan(PatternsXml.colorEndTag), m.start(), m.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
                     }
                     break;
             }
